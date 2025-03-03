@@ -69,4 +69,5 @@ add the forwarding Ngrok http URL from the terminal. with your Functions endpoin
 
 <img src="https://i.gyazo.com/bc1303fce537affddc35c669bf85ef86.png" alt="Screenshot Description">
 
-# Congrats now you've set up a functional Azure Functions App!
+# Conclusion
+**By following these steps, you'll have a fully functioning setup where an Azure Function fetches a Chuck Norris joke and sends it via Twilio's WhatsApp sandbox. Enjoy, and feel free to modify and extend this project!**
