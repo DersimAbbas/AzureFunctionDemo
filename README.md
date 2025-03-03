@@ -25,7 +25,7 @@ By using Ngrok we can use our localhost to fetch it from twilios endpoint online
 
 2. **Locate the project folder and open the project with visual studio.**
 3. **Add a new JSON file to the project or copy your existing one "host.json".Either way your new JSON file should be called: local.settings.json**
-4. in this json file add this code:
+4. in your local.settings.json file add this code:
 6. ```yaml
    {
          
