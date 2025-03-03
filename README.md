@@ -24,12 +24,26 @@ By using Ngrok we can use our localhost to fetch it from twilios endpoint online
    git clone https://github.com/DersimAbbas/AzureFunctionDemo
 
 2. **Locate the project folder and open the project with visual studio.**
-3. **Install Twilio package via nuget package manager console or the solution, "Twilio" the one with the most downloads (60m+ downloads).**
-4. **Follow the instructions to create A Twilio Account and set up your phone number in the Whatsapp Sandbox. On Twilios Website.**
+3.**Add a new JSON file to the project or copy your existing one "host.json".Either way your new JSON file should be called: local.settings.json
+4. in this json file add this code:
+6. ```yaml
+   {
+         {
+       "IsEncrypted": false,
+       "Values": {
+           "AzureWebJobsStorage": "",
+           "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated"
+       }
+
+   }
+   
+
+7. **Install Twilio package via nuget package manager console or the solution, "Twilio" the one with the most downloads (60m+ downloads).**
+8. **Follow the instructions to create A Twilio Account and set up your phone number in the Whatsapp Sandbox. On Twilios Website.**
 You can find WhatsApp sandbox after creating an account here:
 <img src="https://i.gyazo.com/d3576a6736f2cb011653774f788509e2.png" alt="Screenshot Description">
 
-5. **After your account setup with Twilio now its time to download ngrok for local testing without creating azure resources.**
+9. **After your account setup with Twilio now its time to download ngrok for local testing without creating azure resources.**
 
 ## Ngrok Download and setup.
 1.**Create a free account on Ngroks website.**
@@ -42,7 +56,8 @@ You can find WhatsApp sandbox after creating an account here:
 2. You can locate it by typing:
 3. ```bash
    cd ( to your project directory path)
-4. for my PC this is how it looks like:
+5. or you can just copy The project Directory path from Visual Studios Solution explorer.
+6. for my PC this is how it looks like:
    ```bash
     c:users\myname> cd source
     c:users\myname\source> cd repos
@@ -59,8 +74,6 @@ You can find WhatsApp sandbox after creating an account here:
 6. should now look like this:
 <img src="https://i.gyazo.com/90447f6e26262bf815ed4f3311fba3a8.png" alt="Screenshot Description">
       
-        
-
 ## Running the project and adding the endpoint to Twilio.
 1.**Head to twilios WhatsApp sandbox.**
 2.**connect with the QR code on sandbox before next step.**
