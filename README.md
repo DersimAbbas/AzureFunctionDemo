@@ -62,8 +62,9 @@ You can find WhatsApp sandbox after creating an account here:
     c:users\myname> cd source
     c:users\myname\source> cd repos
     c:users\myname\source\repos> cd whatsAppFunction
-    c:users\myname\source\repos\WhatsAppFunction>:
+    c:users\myname\source\repos\WhatsAppFunction>
    in here now you have to add auth token by copying the command from the download page and paste it in.
+      this is the command:
     ngrok config add-authtoken <your secret token from ngrok AFTER creating an account>
 
 ### start the project and then in  the other terminal
