@@ -77,9 +77,10 @@ You can find WhatsApp sandbox after creating an account here:
 <img src="https://i.gyazo.com/90447f6e26262bf815ed4f3311fba3a8.png" alt="Screenshot Description">
       
 ## Running the project and adding the endpoint to Twilio.
-1.**Head to twilios WhatsApp sandbox.**
-2.**connect with the QR code on sandbox before next step.**
+1. **Head to twilios WhatsApp sandbox.**
+2. **connect with the QR code on sandbox before next step.**
 add the forwarding Ngrok http URL from the terminal. with your Functions endpoint
+This his how it should look like. REMEMBER THE URL will change everytime you restart Ngrok!
 <img src="https://i.gyazo.com/eaa6e72e7b6e413f538fc1902b19d3a7.png" alt="Screenshot Description">
 
 2.**Try it out by sending a message to Twilio in WhatsApp. Now it should respond with a chuck norris Joke!**
