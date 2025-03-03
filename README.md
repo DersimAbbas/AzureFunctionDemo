@@ -67,7 +67,7 @@ You can find WhatsApp sandbox after creating an account here:
       this is the command:
     ngrok config add-authtoken <your secret token from ngrok AFTER creating an account>
 
-### start the project and then in  the other terminal
+### start your Azure Functions Project and then in  the other terminal where you added your Auth Token
   **type:**    
  
     ngrok http <YOUR local host endpoint from azure functions app  ----> JUST NUMBERS 5258 5723... etc etc NOT(HTTP:localhost).
