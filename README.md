@@ -28,7 +28,7 @@ By using Ngrok we can use our localhost to fetch it from twilios endpoint online
 4. in this json file add this code:
 6. ```yaml
    {
-         {
+         
        "IsEncrypted": false,
        "Values": {
            "AzureWebJobsStorage": "",
