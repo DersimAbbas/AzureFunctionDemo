@@ -70,7 +70,7 @@ You can find WhatsApp sandbox after creating an account here:
 ### start your Azure Functions Project and then in  the other terminal where you added your Auth Token
   **type:**    
  
-    ngrok http <YOUR local host endpoint from azure functions app  ----> JUST NUMBERS 5258 5723... etc etc NOT(HTTP:localhost).
+    ngrok http < the numbers after localhost: from your Azure Functions project(When its running) >.
     so it could look like this for example ngrok http 1582 or ngrok http 7418
 
 6. should now look like this:
