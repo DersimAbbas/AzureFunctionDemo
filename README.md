@@ -12,7 +12,7 @@ By using Ngrok we can use our localhost to fetch it from twilios endpoint online
 ## Prerequisites
 
 - **Twilio Account:** [Sign up for Twilio](https://www.twilio.com/try-twilio)
-- **Twilio WhatsApp Sandbox:** [Setup instructions](https://www.twilio.com/console/sms/whatsapp/sandbox)
+- **Twilio WhatsApp Sandbox:** [Setup instructions](https://console.twilio.com/us1/develop/sms/try-it-out/whatsapp-learn?frameUrl=%2Fconsole%2Fsms%2Fwhatsapp%2Flearn%3Fx-target-region%3Dus1)
 - **ngrok:** [Download ngrok](https://ngrok.com/download)
 
 ## Project-Setup
