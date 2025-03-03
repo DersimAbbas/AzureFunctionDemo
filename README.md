@@ -32,9 +32,10 @@ You can find WhatsApp sandbox after creating an account here:
 5. **After your account setup with Twilio now its time to download ngrok for local testing without creating azure resources.**
 
 ## Ngrok Download and setup.
-1. **Download Ngrok from here [Link](https://ngrok.com/downloads/windows?tab=download)**
-2. **drag and drop your Ngrok.exe file inside the project next to WhatsAppFunction.sln**
-3. it should look something like this > <img src="https://i.gyazo.com/e6e4da876cbeafcd3f533a7899525136.png" alt="Screenshot Description">
+1.**Create a free account on Ngroks website.**
+2. **Download Ngrok from here [Link](https://ngrok.com/downloads/windows?tab=download)**
+3. **drag and drop your Ngrok.exe file inside the project next to WhatsAppFunction.sln**
+4. it should look something like this > <img src="https://i.gyazo.com/e6e4da876cbeafcd3f533a7899525136.png" alt="Screenshot Description">
 
 ### Configing Ngrok.
 1. **open a new terminal Cmd/powershell, find your project directory and where the ngrok.exe is located at**
@@ -47,12 +48,12 @@ You can find WhatsApp sandbox after creating an account here:
     c:users\myname\source> cd repos
     c:users\myname\source\repos> cd whatsAppFunction
     c:users\myname\source\repos\WhatsAppFunction>: in here now you have to add auth token by copying the command from the download page and paste it in.
-    ngrok config add-authtoken <token>
+    ngrok config add-authtoken <your secret token <from Ngrok>
 
 ### start the project and then in  the other terminal
   **type:**    
  
-    ngrok (your local host endpoint 5258 5723...  etc etc)
+    ngrok (your local host endpoint  ----> JUST NUMBERS 5258 5723... etc etc NOT(HTTP:localhost).
     
 
 6. should now look like this:
