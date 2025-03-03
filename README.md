@@ -74,7 +74,7 @@ You can find WhatsApp sandbox after creating an account here:
     when you start Azure functions e.g, if its running on localhost:7582
     then you should type it like this: ngrok http 7582
 
-6. should now look like this:
+6. And now after the command your terminal should look like this once ngrok is running:
 <img src="https://i.gyazo.com/90447f6e26262bf815ed4f3311fba3a8.png" alt="Screenshot Description">
       
 ## Running the project and adding the endpoint to Twilio.
