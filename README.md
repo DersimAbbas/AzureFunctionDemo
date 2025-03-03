@@ -53,8 +53,8 @@ You can find WhatsApp sandbox after creating an account here:
 ### start the project and then in  the other terminal
   **type:**    
  
-    ngrok (your local host endpoint  ----> JUST NUMBERS 5258 5723... etc etc NOT(HTTP:localhost).
-    
+    ngrok http <YOUR local host endpoint from azure functions app  ----> JUST NUMBERS 5258 5723... etc etc NOT(HTTP:localhost).
+    so it could look like this for example ngrok http 1582 or ngrok http 7418
 
 6. should now look like this:
 <img src="https://i.gyazo.com/90447f6e26262bf815ed4f3311fba3a8.png" alt="Screenshot Description">
